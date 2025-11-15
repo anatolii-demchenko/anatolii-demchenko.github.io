@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://freelancevip.github.io',
+  site: 'https://anatolii-demchenko.github.io',
   integrations: [mdx(), sitemap(), tailwind()],
   outDir: './docs',
   base: '/',
