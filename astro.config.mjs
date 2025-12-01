@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://anatolii-demchenko.github.io',
   integrations: [mdx(), sitemap(), tailwind()],
-  outDir: './docs',
+  outDir: './dist',
   base: '/',
   build: {
     assets: 'astro'
