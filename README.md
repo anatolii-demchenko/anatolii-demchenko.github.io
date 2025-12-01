@@ -1,3 +1,9 @@
+[![Deploy](https://github.com/anatolii-demchenko/anatolii-demchenko.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/anatolii-demchenko/anatolii-demchenko.github.io/actions/workflows/deploy.yml)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+
+
 # Anatolii Demchenko – Personal Portfolio
 
 **Full-Stack Developer | Web & AI Projects | Chrome Extensions**
