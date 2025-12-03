@@ -9,10 +9,9 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     <h1 class="text-4xl font-bold mb-10">Portfolio</h1>
 
     <HorizontalCard
-      title="National system for supporting farmers (Ukraine)"
+      title="Agricultural Assistance Telegram Bot & Admin Dashboard"
       img="/img/agrobot-admin.png"
-      desc="Telegram bot and admin dashboard for quickly processing agricultural assistance requests. Developed with Node.js, Laravel, and MySQL."
-      url="#"
+      desc="A full workflow platform for rapid processing of agricultural assistance requests. The backend is built on Laravel, providing a structured admin dashboard and a secure REST API. A JavaScript-based Telegram bot communicates with this API, handling user authentication and authorization, validating incoming requests, and synchronizing all actions with the central system. The solution ensures reliable data processing, fast operator response, and a unified operational flow between the bot and the admin panel."
       badge="telegram bot"
       rel="nofollow"
     />
@@ -52,6 +51,58 @@ import HorizontalCard from "../components/HorizontalCard.astro";
       badge="WooCommerce"
       rel="nofollow"
     />
+
+    <HorizontalCard
+      title="Vehicle GPS Tracking Interface"
+      img="/img/code.webp"
+      desc="A custom interface built on top of an external GPS provider’s API to monitor vehicle locations and operational statuses in real time. The solution integrates Google Maps for live geolocation visualization and provides a lightweight control layer via Telegram. The Telegram interface enables quick operator actions, status checks, and remote commands, while the web dashboard consolidates all tracking data into a clear, accessible view for daily fleet supervision."
+      descDe="Eine maßgeschneiderte Oberfläche auf Basis der API eines externen GPS-Anbieters zur Echtzeitüberwachung von Fahrzeugstandorten und Betriebszuständen. Die Lösung integriert Google Maps für die Live-Ortungsvisualisierung und bietet eine schlanke Steuerungsebene über Telegram. Die Telegram-Schnittstelle ermöglicht schnelle Operator-Aktionen, Statusabfragen und Remote-Befehle, während das Web-Dashboard alle Trackingdaten in einer klaren, zugänglichen Ansicht für die tägliche Flottenüberwachung bündelt."
+      badge="tracking"
+    />
+
+
+    <HorizontalCard
+      title="Automated OLX Listing Booster"
+      img="/img/code.webp"
+      desc="System for scheduled automatic boosting of OLX listings controlled through a Google Sheets admin panel. The admin defines the exact time each listing must be bumped. The backend runs on Node.js with TinyProxy-based authentication."
+      badge="automation"
+    />
+
+    <HorizontalCard
+      title="Twitter Username Checker Extension"
+      img="/img/code.webp"
+      desc="Chrome and Firefox extension that detects @username on Twitter pages, verifies it via an external API, and highlights matches with a red underline. Includes caching for performance. Built with jQuery and WebExtensions."
+      badge="browser-extension"
+    />
+
+    <HorizontalCard
+      title="Prosthetics Website"
+      img="/img/pro/prosthetics.webp"
+      desc="Responsive SCSS layout built from a design mockup and integrated into WordPress with clean structure and optimized styling."
+      badge="website"
+    />
+
+    <HorizontalCard
+      title="Undersand"
+      img="/img/pro/undersand_ru.webp"
+      desc="Frontend layout and WordPress integration for a designer’s website with focus on visual clarity, accurate design implementation, and high performance."
+      badge="website"
+    />
+
+    <HorizontalCard
+      title="IV-Law"
+      img="/img/pro/it-law_com.webp"
+      desc="Development, layout, and WordPress integration for a legal services website with structured content presentation and a clean professional UI."
+      badge="website"
+    />
+
+    <HorizontalCard
+      title="tarasivka.madein.ua"
+      img="/img/pro/tarasivka.webp"
+      desc="A fully custom PHP website without any framework or CMS — the project where my development career started. Built with pure PHP and MySQL. Later expanded into a multisite architecture sharing a single admin panel for product management. Eventually migrated and consolidated into a WordPress-based system."
+      badge="website"
+    />
+
 
   </section>
 </BaseLayout>
